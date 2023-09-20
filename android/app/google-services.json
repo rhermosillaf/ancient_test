@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "458416062304",
+    "project_id": "aquimaestros-auth",
+    "storage_bucket": "aquimaestros-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458416062304:android:a87cfbd249cf5f4ed8e805",
+        "android_client_info": {
+          "package_name": "com.example.ancient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458416062304-lvb9laisip0lf3p3upgrffddriap7geb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ancient",
+            "certificate_hash": "8e9b06ab585e2c7968b2743c6ba49bbc50d540e0"
+          }
+        },
+        {
+          "client_id": "458416062304-lpqoqltqvq182ofnfm8hjo0s70kt3u3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbQz-4Uz8_KlYpBTIt7kadBdgZnwZmbqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458416062304-lpqoqltqvq182ofnfm8hjo0s70kt3u3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

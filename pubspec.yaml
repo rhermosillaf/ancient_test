@@ -1,0 +1,56 @@
+name: ancient
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #Dependencias para usar Firebase 
+  firebase_core_platform_interface: ^4.8.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+
+  #Dependencias para usar bloc
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  
+  #Para validar texto de tipo email
+  email_validator: ^2.0.1
+
+  #Animation
+  flutter_staggered_animations: ^1.1.1
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  mockito: ^5.4.2
+  rxdart:
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
